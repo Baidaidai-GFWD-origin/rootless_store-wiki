@@ -1,0 +1,25 @@
+:root {
+  --vp-home-hero-name-background:
+    linear-gradient(120deg, #86a8d9 0%, #a8c8f0 38%, #f7fbff 100%);
+  --vp-home-hero-image-background-image:
+    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.95) 0, rgba(255, 255, 255, 0.6) 20%, rgba(255, 255, 255, 0) 54%),
+    linear-gradient(135deg, rgba(173, 196, 225, 0.95) 0%, rgba(147, 186, 231, 0.98) 42%, rgba(222, 238, 255, 0.95) 100%);
+  --vp-home-hero-image-filter: blur(64px);
+}
+
+.VPHomeHero .image-bg {
+  opacity: 0.9;
+  transform: translate(-50%, -50%) scale(1.18);
+}
+
+.VPHomeHero .image-src {
+  border-radius: 30px;
+  box-shadow: 0 24px 60px rgba(120, 150, 190, 0.28);
+}
+
+.VPNavBarTitle .logo,
+.VPNavBarTitle .VPImage.logo {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(120, 150, 190, 0.18);
+  border: 1px solid rgba(134, 168, 217, 0.18);
+}
