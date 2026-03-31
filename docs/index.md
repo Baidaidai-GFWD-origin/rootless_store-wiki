@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "Rootless Store"
   text: "为安卓生态补齐最后一枚拼图"
-  tagline: This project belongs to ResilienOS Co., Ltd.
+  tagline: This project belongs to Resilien Co., Ltd.
   image:
     src: /logo.webp
     alt: Rootless Store logo
   actions:
     - theme: brand
-      text: Explore Notes
-      link: /markdown-examples
+      text: Rootless的心智模型
+      link: /articles/why-rootless
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于开发插件细节
+      link: /articles/limitations-and-timeline
 
 features:
   - title: 插件管理与执行

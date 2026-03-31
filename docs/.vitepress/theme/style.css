@@ -16,3 +16,10 @@
   border-radius: 30px;
   box-shadow: 0 24px 60px rgba(120, 150, 190, 0.28);
 }
+
+.VPNavBarTitle .logo,
+.VPNavBarTitle .VPImage.logo {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(120, 150, 190, 0.18);
+  border: 1px solid rgba(134, 168, 217, 0.18);
+}
