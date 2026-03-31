@@ -1,13 +1,15 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/rootless_store-wiki/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Rootless Store",
   description: "Rootless Store Wiki",
-  base: "/rootless_store-wiki/",
+  base,
   head: [
-    ['link', { rel: 'icon', type: 'image/webp', href: '/logo.webp' }],
-    ['link', { rel: 'apple-touch-icon', href: '/logo.webp' }]
+    ['link', { rel: 'icon', type: 'image/webp', href: `${base}logo.webp` }],
+    ['link', { rel: 'apple-touch-icon', href: `${base}logo.webp` }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
