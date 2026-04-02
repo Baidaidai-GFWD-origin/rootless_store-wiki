@@ -34,7 +34,8 @@ export default defineConfig({
         text: '插件开发细节',
         items: [
           { text: '关于插件开发的细节', link: '/plugin-development/' },
-          { text: 'Client：运行时插件', link: '/plugin-development/client-runtime-plugin' }
+          { text: 'Client：运行时插件', link: '/plugin-development/client-runtime-plugin' },
+          { text: 'Server：Market 与 Source 接口', link: '/plugin-development/server-sources-backend' }
         ]
       }
     ]
