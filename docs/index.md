@@ -15,7 +15,7 @@ hero:
       link: /articles/why-rootless
     - theme: alt
       text: 关于开发插件细节
-      link: /articles/limitations-and-timeline
+      link: /plugin-development/
 
 features:
   - title: 插件管理与执行

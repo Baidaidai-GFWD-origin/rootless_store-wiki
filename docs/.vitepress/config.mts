@@ -18,6 +18,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '心智模型', link: '/articles/why-rootless' },
       { text: '插件开发', link: '/plugin-development/' },
+      { text: '使用指引', link: '/user-guide/how-to-use-rootless-store' },
     ],
 
     sidebar: [
@@ -34,7 +35,14 @@ export default defineConfig({
         text: '插件开发细节',
         items: [
           { text: '关于插件开发的细节', link: '/plugin-development/' },
-          { text: 'Client：运行时插件', link: '/plugin-development/client-runtime-plugin' }
+          { text: 'Client：运行时插件', link: '/plugin-development/client-runtime-plugin' },
+          { text: 'Server：Market 与 Source 接口', link: '/plugin-development/server-sources-backend' }
+        ]
+      },
+      {
+        text: '使用指引',
+        items: [
+          { text: '如何正确使用 Rootless Store', link: '/user-guide/how-to-use-rootless-store' }
         ]
       }
     ]
