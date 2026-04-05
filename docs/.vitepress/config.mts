@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-const base = '/rootless_store-wiki/'
+const base = '/RootlessStore_WiKi/'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
