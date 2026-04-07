@@ -14,6 +14,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.webp',
+    socialLinks: [
+      { icon: 'telegram', link: 'https://t.me/+3yjgOb4EpE5jNjFl', ariaLabel: 'Telegram' },
+      { icon: 'qq', link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=ZubO%2FbgKK8WWLB4933YkaBSKlUGFmx6JeZqWVanHIXJe0pi0ktWmCWWSXiQyhtta&busi_data=eyJncm91cENvZGUiOiIxMDkzOTkwMzE4IiwidG9rZW4iOiJVSzdKYURkclpQcGhUdXRNYkVURkc2dEFicHpjQXBOLytldy9qOHZndzhrSURhUEVyRWdpbWNKOFhoL2hpTTRuIiwidWluIjoiMTMwMjA2NDM5NiJ9&data=q1ZKNAEimSszcWAAYKUpb9GHdgrbg6SfwQv5PlSSDF4wfuNZmTAAOMME92lp1oWop2kilhL2Ta3-CAUzjPgIhw&svctype=4&tempid=h5_group_info', ariaLabel: 'QQ' },
+      { icon: 'github', link: 'https://github.com/Resilien-Mobile/RootlessStore', ariaLabel: 'GitHub' }
+    ],
     nav: [
       { text: '首页', link: '/' },
       { text: '心智模型', link: '/articles/why-rootless' },
