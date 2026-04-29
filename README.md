@@ -1,38 +1,40 @@
 # Rootless Store Wiki
 
-## 你居然发现这里了？
+[本文中文版](/assets/readme/README_zh-rCN.md)
 
-是的，这里不是 Rootless Store 的本体项目  
-这里是它的 **Wiki 文档站**
+## You Found This Place?
 
-如果你是一路顺藤摸瓜摸到这里的，说明你已经进入正确区域了
+Yes, this is not the main Rootless Store project.  
+This is its **Wiki documentation site**.
 
-这里不负责运行插件  
-这里负责把 Rootless Store 这件事讲清楚
+If you followed the trail all the way here, you are in the right place.
 
-## 这个 Wiki 是干什么的？
+This repository does not run plugins.  
+It explains what Rootless Store is about.
 
-简单说，它就是 Rootless Store 的说明书、地图册和世界观入口
+## What Is This Wiki For?
 
-你可以在这里看到：
+In short, this is the manual, map, and conceptual entry point for Rootless Store.
 
-- Rootless Store 到底想解决什么问题
-- 它的 Source、Market、Plugin 分别是什么
-- 整个项目现在是怎么设计的
-- 用户应该怎么理解这些页面和功能
-- 开发者应该从哪里开始看接口和文档
+Here you can learn:
 
-换句话说，这里不是教你“瞎点哪里”  
-而是帮你搞明白：**这个项目到底在做什么**
+- What problem Rootless Store is trying to solve.
+- What Source, Market, and Plugin mean in this project.
+- How the project is currently designed.
+- How users should understand its pages and features.
+- Where developers should start when looking for interfaces and documentation.
 
-顺带一提，这个 Wiki 是用 **VitePress** 搭建的  
-没错，就是那个很适合拿来认真写文档、也很适合把思路收拾干净的 VitePress
+In other words, this is not here to tell you "randomly click this or that".  
+It is here to help you understand: **what this project is actually trying to build**.
 
-## 开源协议与贡献
+By the way, this Wiki is built with **VitePress**.  
+Yes, the same VitePress that works well for serious documentation and for keeping ideas clean and organized.
 
-本 Wiki 采用的开源协议是：
+## License and Contributions
+
+This Wiki is licensed under:
 
 **AGPL-3.0 license**
 
-如果你也认同 Rootless Store 这套方向  
-也欢迎你来一起补文档、提建议、修内容、提 PR
+If you also agree with the direction of Rootless Store,  
+you are welcome to help improve the documentation, share suggestions, fix content, or open pull requests.
